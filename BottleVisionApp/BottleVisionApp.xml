@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BottleVisionApp</name>
+    </assembly>
+    <members>
+        <member name="T:BottleVisionApp.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:BottleVisionApp.BottleBusiness.BottleCatalog">
+            <summary>
+            Defines the bottles and its prices
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.BottleBusiness.BottleCatalog.GetPrice(BottleVisionApp.BottleBusiness.BottleType)">
+            <summary>
+            Get the price of a bottle
+            </summary>
+            <param name="bottleType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BottleVisionApp.BottleBusiness.BottleCatalog.GetListOfBottles">
+            <summary>
+            Get a list of all available bottles
+            </summary>
+            <returns>list of bottles</returns>
+        </member>
+        <member name="T:BottleVisionApp.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.startBtn_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Start Button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.stopBtn_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Stop Button    
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.video_NewFrame(System.Object,AForge.Video.NewFrameEventArgs)">
+            <summary>
+            Loads camera frames to application and saves it in List
+            https://github.com/mesta1/AForge-examples
+            </summary>
+            <param name="sender"></param>
+            <param name="eventArgs"></param>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.Start_Detection">
+            <summary>
+            Start detection and processing 
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.ImageToByte(System.Drawing.Image)">
+            <summary>
+            Converts Image to byte array
+            https://stackoverflow.com/questions/7350679/convert-a-bitmap-into-a-byte-array
+            </summary>
+            <param name="img"></param>
+            <returns>byte array from image</returns>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.UpdateInventory(System.Int32[])">
+            <summary>
+            Updates the Inventory based on detection data.
+            Uses stopwatch to be sure that changes really happened.
+            </summary>
+            <param name="detectedBottles"></param>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.CheckAmountOfBottlesAndUpdate(System.Boolean,System.Int32[])">
+            <summary>
+            Checks if the amount of bottles changed and update storages
+            </summary>
+            <param name="amountOfBottlesChanged"></param>
+            <param name="detectedBottles"></param>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.AlertIfNumOfBottlesLowThread">
+            <summary>
+            Show Alert if number fo bottles is too low in any storage
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.UpdateDatagridStatusThread">
+            <summary>
+            Update Datagrid status
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.InitializeBusiness(System.Int32[])">
+            <summary>
+            Initialize Business
+            </summary>
+            <param name="detectedBottles"></param>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.AlertIfNumOfBottlesLow">
+            <summary>
+            Show a Message Box to the user if one of the storages 
+            has no bottles of any bottle type
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.UpdateStatus">
+            <summary>
+            Adds a row with information which bottles where sold
+            and how much money was earned
+            https://stackoverflow.com/questions/2357855/round-double-in-two-decimal-places-in-c
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.GetVideoDevices">
+            <summary>
+            Get Video devices
+            https://github.com/mesta1/AForge-examples
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.StartCamera">
+            <summary>
+            Start camera
+            https://github.com/mesta1/AForge-examples
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.StopCamera">
+            <summary>
+            Stop Camera
+            https://github.com/mesta1/AForge-examples
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.MainWindow_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Close Main Window
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.CheckBox_Checked(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Get information if the user wants to see the boxes around the detected bottles
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.ToBitmapImage(System.Drawing.Bitmap)">
+            <summary>
+            Converts Bitmap to BitmapImage
+            https://stackoverflow.com/questions/6484357/converting-bitmapimage-to-bitmap-and-vice-versa
+            </summary>
+            <param name="bitmap"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.ListOfBottles(System.Drawing.Image,System.Collections.Generic.List{Alturos.Yolo.Model.YoloItem})">
+            <summary>
+            Extracts from Image and List of YoloItems
+            an int array of the amount of each type of bottle
+            </summary>
+            <param name="image"></param>
+            <param name="items"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.GetOnnxPrediction(System.Drawing.Image)">
+            <summary>
+            Run ONNX model and get the index of the predicted bottle type 
+            https://github.com/microsoft/onnxruntime/blob/master/docs/CSharp_API.md
+            </summary>
+            <param name="bottle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.PredictionFromString(System.String)">
+            <summary>
+            Convert string array (from onnx prediction) to float array 
+            and extract index of highest value .
+            </summary>
+            <param name="pred"></param>
+            <returns>Index of max value</returns>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.ExtractStringListFromString(System.String)">
+            <summary>
+            Extracts a string list from the ONNX string prediction
+            </summary>
+            <param name="pred"></param>
+            <returns>string array</returns>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.ImageArrayToTensoArray(NumSharp.NDArray)">
+            <summary>
+            Converts an image NDArray to a float array which is needed to make the tensor
+            The NDArray has instead of the RGB format a BGR format which is changed in the code
+            Can be simplified -> instead loading as byte and not as NDArray -> NumSharp.Bitmap can be deleted
+            </summary>
+            <param name="imageArray"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.LoopDetection">
+            <summary>
+            Loop Detection and Processing
+            </summary>
+        </member>
+        <member name="T:BottleVisionApp.MainWindow.DataGridBottle">
+            <summary>
+            Datagrid class for Shop/Warehouse
+            </summary>
+        </member>
+        <member name="T:BottleVisionApp.MainWindow.DataGridSoldBottles">
+            <summary>
+            Datagrid class for Status
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.UpdateDataGrid">
+            <summary>
+            Update amount of bottles in the shop/warehouse in the datagrid
+            https://www.youtube.com/watch?v=dOZYOnFb56Q
+            </summary>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.Resize(System.Drawing.Image,System.Int32,System.Int32)">
+            <summary>
+            http://stackoverflow.com/questions/11137979/image-resizing-using-c-sharp
+            Resizes Image to given size
+            </summary>
+            <param name="image"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BottleVisionApp.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:BottleBusiness.BottleBusiness.BottleStorage">
+            <summary>
+            The Bottle Storage uses a Map to store information about the amount of bottle
+            </summary>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.BottleStorage.NeedBottles">
+            <summary>
+            Gives information if bottles are needed
+            </summary>
+            <returns>true if yes, false else</returns>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.BottleStorage.GetAmount(BottleVisionApp.BottleBusiness.BottleType)">
+            <summary>
+            Gets the amount of bottles of the given bottle type in the storage
+            </summary>
+            <param name="bottleType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.BottleStorage.Increase(BottleVisionApp.BottleBusiness.BottleType,System.Int32)">
+            <summary>
+            Increases the number of bottles in the storage 
+            by the given amount of the given bottle type.
+            </summary>
+            <param name="bottleType"></param>
+            <param name="amount"></param>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.BottleStorage.Decrease(BottleVisionApp.BottleBusiness.BottleType,System.Int32)">
+            <summary>
+            Decreases the number of bottles in the storage 
+            by the given amount of the given bottle type.
+            </summary>
+            <param name="bottleType"></param>
+            <param name="amount"></param>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.BottleStorage.IsSame(System.Int32[])">
+            <summary>
+            Checks if the number of detected bottles are 
+            the same as the number of bottles in the shop.
+            </summary>
+            <param name="detectedNumberOfBottles"></param>
+            <returns>True if same, False else</returns>
+        </member>
+        <member name="T:BottleBusiness.BottleBusiness.Business">
+            <summary>
+            This is the Business. It has a shop, a warehouse and a budget (earned money).
+            The number of sold bottles are used for each step of calculating the budget.
+            The business is updated, according to the detected changes by the camera.
+            </summary>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.#ctor(System.Int32[],System.Int32[])">
+            <summary>
+            Initialize Business which has a Shop and a Warehouse
+            </summary>
+            <param name="initShop"></param>
+            <param name="initWarehouse"></param>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.GetBottleList">
+            <summary>
+            Get the Catalog
+            </summary>
+            <returns>List of all Bottles in the Catalog</returns>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.IsSameAmount(System.Int32[])">
+            <summary>
+            Checks if the detected amount of bottles is actual the same as in the shop
+            </summary>
+            <param name="detectedNumberOfBottles"></param>
+            <returns>True if amount is same, else false</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:BottleBusiness.BottleBusiness.Business.UpdateStorages(System.Int32[])" -->
+        <member name="M:BottleBusiness.BottleBusiness.Business.GetIsAnyBottleSold">
+            <summary>
+            Checks if any bottles were sold
+            </summary>
+            <returns>True if yes, else False</returns>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.NeedBottlesInWarehouse">
+            <summary>
+            Checks if the warehouse needs to be filled up with bottles
+            </summary>
+            <returns>True, if the number of bottles of one type is 0, else False</returns>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.NeedBottlesInShop">
+            <summary>
+            Checks if the shop needs to be filled up with bottles
+            </summary>
+            <returns>True, if the number of bottles of one type is 0, else False</returns>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.GetBottleStatus(BottleVisionApp.BottleBusiness.BottleType)">
+            <summary>
+            Shows how many bottles of a given type were sold together with its price
+            </summary>
+            <param name="bottleType"></param>
+            <returns>number of sold bottles times the price</returns>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.GetBudgetMsg">
+            <summary>
+            Get the amount of money earned.
+            </summary>
+            <returns>Earned money</returns>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.ResetSoldBottles">
+            <summary>
+            Sets number of sold bottles to 0
+            </summary>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.GetAmountInShop(BottleVisionApp.BottleBusiness.BottleType)">
+            <summary>
+            Get Amount of bottles in the shop of the given Bottle Type
+            </summary>
+            <param name="bottleType"></param>
+            <returns>amount as int</returns>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.GetAmountInWarehouse(BottleVisionApp.BottleBusiness.BottleType)">
+            <summary>
+            Get Amount of bottles in the warehouse of the given Bottle Type
+            </summary>
+            <param name="bottleType"></param>
+            <returns>amount as int</returns>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.Update(BottleVisionApp.BottleBusiness.BottleType,System.Int32)">
+            <summary>
+            Updates the number of bottles according to detection.
+            If the amount detected is smaller than it was before the bottles were sold.
+            If the amount detected is higher than it was before the bottle came from the warehouse.
+            </summary>
+            <param name="bottleType"></param>
+            <param name="detectedNumOfBottles"></param>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.GetPriceOf(BottleVisionApp.BottleBusiness.BottleType)">
+            <summary>
+            Get the Price of given Bottle
+            </summary>
+            <param name="bottleType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.Refilled(BottleVisionApp.BottleBusiness.BottleType,System.Int32)">
+            <summary>
+            Adds an amount of bottles to the shop and
+            Subtracts the same amount from the warehouse.
+            </summary>
+            <param name="bottleType"></param>
+            <param name="amount"></param>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.Sold(BottleVisionApp.BottleBusiness.BottleType,System.Int32)">
+            <summary>
+            Subtracts the amount of bottles sold from the shop,
+            Calculates the earned money from selling and
+            Updates the number of sold bottles.
+            </summary>
+            <param name="bottleType"></param>
+            <param name="amount"></param>
+        </member>
+        <member name="M:BottleBusiness.BottleBusiness.Business.UpdateSoldBottles(BottleVisionApp.BottleBusiness.BottleType,System.Int32)">
+            <summary>
+            Updates the amount of sold bottles.
+            </summary>
+            <param name="bottleType"></param>
+            <param name="amount"></param>
+        </member>
+        <member name="T:BottleBusiness.BottleBusiness.Shop">
+            <summary>
+            The Shop is the place where the camera detects the changes.
+            Through these changes updates will happen.
+            </summary>
+        </member>
+        <member name="T:BottleBusiness.BottleBusiness.Warehouse">
+            <summary>
+            The Warehouse holds bottles which are transported to the shop.
+            </summary>
+        </member>
+        <member name="M:BottleBusiness.RandomForest.ImageProcessor.getListFromProcessedImage(System.Drawing.Bitmap)">
+            <summary>
+            Resized Image
+            </summary>
+            <param name="img"></param>
+            <returns>List of RGB values of resized Image</returns>
+        </member>
+    </members>
+</doc>

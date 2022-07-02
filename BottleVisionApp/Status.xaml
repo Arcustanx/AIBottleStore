@@ -1,0 +1,20 @@
+﻿<Window x:Class="BottleVisionApp.Status"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BottleVisionApp"
+        mc:Ignorable="d"
+        Title="Status" Height="381" Width="400">
+    <Grid Height="381">
+        <DataGrid Name="status" HorizontalAlignment="Center" Height="274" VerticalAlignment="Top" Width="304" Margin="0,10,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Bottle Type" Binding="{Binding type}" Width="100"/>
+                <DataGridTextColumn Header="Amount sold" Binding="{Binding amount}" Width="100"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding price}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="income" HorizontalAlignment="Left" Height="22" Margin="200,305,0,0" Text="0 Euro" TextWrapping="Wrap" VerticalAlignment="Top" Width="73"/>
+        <Label Content="Income:" HorizontalAlignment="Left" Height="32" Margin="136,300,0,0" VerticalAlignment="Top" Width="59"/>
+    </Grid>
+</Window>

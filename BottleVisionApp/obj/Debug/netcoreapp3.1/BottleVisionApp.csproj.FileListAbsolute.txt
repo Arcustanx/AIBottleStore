@@ -1,0 +1,115 @@
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.csprojAssemblyReference.cache
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp_MarkupCompile.cache
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp_MarkupCompile.lref
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\opencv_world411.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\yolo_cpp_dll_cpu.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\yolo_cpp_dll_gpu.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\pthreadVC2.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\pthreadGC2.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\msvcr100.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.exe
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.deps.json
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.runtimeconfig.json
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.runtimeconfig.dev.json
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.pdb
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\Alturos.Yolo.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\yolo_cpp_dll_cpu.so
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcr100.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\opencv_world411.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\pthreadGC2.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\pthreadVC2.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\yolo_cpp_dll_cpu.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\yolo_cpp_dll_gpu.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.g.resources
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.AssemblyInfoInputs.cache
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.AssemblyInfo.cs
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.csproj.CopyComplete
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.pdb
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\AForge.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\AForge.Video.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\AForge.Video.DirectShow.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\NumSharp.Core.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\NumSharp.Bitmap.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\Microsoft.ML.OnnxRuntime.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libonnxruntime.so
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libonnxruntime.dylib
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libonnxruntime.dylib.dSYM\Contents\Info.plist
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libonnxruntime.dylib.dSYM\Contents\Resources\DWARF\libonnxruntime.dylib
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime.lib
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime.pdb
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime.dll
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime.lib
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime.pdb
+C:\Users\bayan2\Desktop\netcoreapp3.1\opencv_world411.dll
+C:\Users\bayan2\Desktop\netcoreapp3.1\yolo_cpp_dll_cpu.dll
+C:\Users\bayan2\Desktop\netcoreapp3.1\yolo_cpp_dll_gpu.dll
+C:\Users\bayan2\Desktop\netcoreapp3.1\pthreadVC2.dll
+C:\Users\bayan2\Desktop\netcoreapp3.1\pthreadGC2.dll
+C:\Users\bayan2\Desktop\netcoreapp3.1\msvcr100.dll
+C:\Users\bayan2\Desktop\netcoreapp3.1\BottleVisionApp.exe
+C:\Users\bayan2\Desktop\netcoreapp3.1\BottleVisionApp.deps.json
+C:\Users\bayan2\Desktop\netcoreapp3.1\BottleVisionApp.runtimeconfig.json
+C:\Users\bayan2\Desktop\netcoreapp3.1\BottleVisionApp.runtimeconfig.dev.json
+C:\Users\bayan2\Desktop\netcoreapp3.1\BottleVisionApp.dll
+C:\Users\bayan2\Desktop\netcoreapp3.1\BottleVisionApp.pdb
+C:\Users\bayan2\Desktop\netcoreapp3.1\BottleVisionApp.xml
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\Status.g.cs
+C:\Users\bayan2\source\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\Status.baml
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\opencv_world411.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\yolo_cpp_dll_cpu.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\yolo_cpp_dll_gpu.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\pthreadVC2.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\pthreadGC2.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\msvcr100.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.exe
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.deps.json
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.runtimeconfig.json
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.runtimeconfig.dev.json
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\BottleVisionApp.pdb
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\AForge.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\AForge.Video.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\AForge.Video.DirectShow.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\Alturos.Yolo.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\Microsoft.ML.OnnxRuntime.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\NumSharp.Core.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\NumSharp.Bitmap.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\yolo_cpp_dll_cpu.so
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\msvcr100.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\opencv_world411.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\pthreadGC2.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\pthreadVC2.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\yolo_cpp_dll_cpu.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\yolo_cpp_dll_gpu.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libonnxruntime.so
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libonnxruntime.dylib
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libonnxruntime.dylib.dSYM\Contents\Info.plist
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libonnxruntime.dylib.dSYM\Contents\Resources\DWARF\libonnxruntime.dylib
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime.lib
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\onnxruntime.pdb
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime.lib
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\onnxruntime.pdb
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.csprojAssemblyReference.cache
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\Status.g.cs
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp_MarkupCompile.cache
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp_MarkupCompile.lref
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\Status.baml
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.g.resources
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.AssemblyInfo.cs
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.csproj.CopyComplete
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.dll
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.pdb
+C:\Users\User\Desktop\USB\Praktikum Barcelona\repos\BottleVisionApp\BottleVisionApp\obj\Debug\netcoreapp3.1\BottleVisionApp.genruntimeconfig.cache

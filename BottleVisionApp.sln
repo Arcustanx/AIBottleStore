@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottleVisionApp", "BottleVisionApp\BottleVisionApp.csproj", "{AB703ED5-A7AC-4155-8CA8-154D62135497}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB703ED5-A7AC-4155-8CA8-154D62135497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB703ED5-A7AC-4155-8CA8-154D62135497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB703ED5-A7AC-4155-8CA8-154D62135497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB703ED5-A7AC-4155-8CA8-154D62135497}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06F9D216-4EB2-4E1B-B4B6-B734A1E89B8A}
+	EndGlobalSection
+EndGlobal

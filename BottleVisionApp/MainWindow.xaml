@@ -1,0 +1,26 @@
+﻿<Window x:Class="BottleVisionApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BottleVisionApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="618" Width="890">
+    <Grid HorizontalAlignment="Center" Width="849" Height="562">
+        <Image x:Name="videoPlayer" HorizontalAlignment="Left" Height="240" Margin="64,114,0,0" VerticalAlignment="Top" Width="320" Stretch="Uniform"/>
+        <Button x:Name="startBtn" Click="StartBtn_Click" Content="Start" HorizontalAlignment="Left" Height="50" Margin="377,411,0,0" VerticalAlignment="Top" Width="130" FontSize="20"/>
+        <CheckBox x:Name="checkBox" Content="Add Boxes" HorizontalAlignment="Left" Height="18" Margin="377,495,0,0" VerticalAlignment="Top" Width="130" Checked="CheckBox_Checked" Unchecked="CheckBox_Checked" FontSize="16"/>
+
+        <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="122" Margin="51,408,0,0" VerticalAlignment="Top" Width="251">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header=" Bottle Type" Binding="{Binding bottleType}" Width="100"/>
+                <DataGridTextColumn Header=" Shop" Binding="{Binding inShop}" Width="50"/>
+                <DataGridTextColumn Header=" Warehouse" Binding="{Binding inWarehouse}" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button x:Name="stopBtn" Content="Stop" Height="50" Margin="538,411,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Click="StopBtn_Click" FontSize="20" Width="128"/>
+        <Image x:Name="detectionPlayer" HorizontalAlignment="Left" Height="240" Margin="442,114,0,0" VerticalAlignment="Top" Width="320" Stretch="Uniform"/>
+        <Button x:Name="status1" Content="Status" HorizontalAlignment="Left" Margin="699,411,0,0" VerticalAlignment="Top" Height="50" Width="128" Click="status1_Click" FontSize="20" RenderTransformOrigin="1.419,0.49"/>
+    </Grid>
+</Window>
